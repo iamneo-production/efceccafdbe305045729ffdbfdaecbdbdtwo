@@ -1,0 +1,72 @@
+/* App.css */
+
+/* Apply a background color to the entire app */
+.App {
+  background-color: #f0f0f0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style the header */
+.App-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the container for components */
+.App-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the course list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Style the selected course */
+.selected-course {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the enrollment form */
+.EnrollmentForm {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style the user profile */
+.UserProfile {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style the course details */
+.CourseDetail {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
